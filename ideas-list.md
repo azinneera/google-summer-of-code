@@ -222,24 +222,22 @@ Ballerina already has a static code analysis tool inbuilt and integration suppor
 
 ### 🚀 7. ** Autonomous AI Integration Engineer for WS2MI/Ballerina (Inspired by Devin) **  
 
-**📅 Project Duration:** Long (~175 hours)  
+**📅 Project Duration:** Long (~350 hours)  
 **🔥 Difficulty Level:** Hard
 **👨‍🏫 Number of people:** 2 (One for Ballerina and One for MI)
 **👨‍🏫 Mentors:** Isuru Wijesiri (isuruwij@wso2.com)
 
 **📍 Description:** 
-This project aims to develop an open-source, autonomous AI Integration Engineer, drawing inspiration from Devin, the Autonomous AI Software Engineer.  This intelligent agent will automate key tasks within the WSO2 Micro Integrator (WS2MI) and Ballerina ecosystem, significantly streamlining integration development.  The agent will leverage the power of Large Language Models (LLMs) and related generative AI techniques to understand integration requirements, generate code, configure WS2MI/Ballerina, and deploy and test integrations iteratively until the given task is completed.
+This project aims to develop an open-source, autonomous AI Integration Engineer, drawing inspiration from Devin, the Autonomous AI Software Engineer.  This intelligent agent will automate key tasks within the WSO2 Micro Integrator (WSO2 MI) ecosystem, significantly streamlining integration development.  The agent will leverage the power of Large Language Models (LLMs) and related generative AI techniques to understand integration requirements, generate code, configure WSO2 MI, and deploy and test integrations iteratively until the given task is completed.
 
 **🛠 Possible Technologies involved:** 
 - Python
 - Generative Ai
 - Prompt Engineering / RAG / LLM Fine tuning
 - WSO2 MI and WSO2 Synapse
-- Ballerina
 - Shell scripting
 
 **📚 Learning Materials:**
-- Ballerina by Example: https://ballerina.io/learn/by-example/documentation/
 - WSO2 MI docs: https://mi.docs.wso2.com/en/latest/
 - Prompt engineering: https://www.promptingguide.ai/
 - RAG: https://www.freecodecamp.org/news/mastering-rag-from-scratch/
@@ -248,11 +246,70 @@ This project aims to develop an open-source, autonomous AI Integration Engineer,
 - A foundational understanding of how LLMs work.
 - Familiarity with applied generative AI concepts and techniques.
 - Basic understanding of integration concepts.
-- Knowledge of WSO2 Synapse and Ballerina. (While not strictly required, prior experience will be highly beneficial.)
+- Knowledge of WSO2 Synapse (or willingness to learn).
 - Experience with shell scripting.
 - Familiarity with API development and RESTful principles.
 
 ---
+
+### 🚀 8. ** Templating Library for Ballerina **  
+
+**📅 Project Duration:** Long (~350 hours)  
+**🔥 Difficulty Level:** Medium
+**👨‍🏫 Number of people:** 1
+**👨‍🏫 Mentors:** Anjana Supun (anjanas@wso2.com)
+
+**📍 Description:** 
+This project aims to design and implement a robust text templating engine for the Ballerina language. The new templating feature will allow developers to create dynamic, reusable templates for generating diverse textual outputs—ranging from prompts, logs, and reports to email content and configuration files. The implementation should seamlessly integrate with Ballerina’s type system
+
+This templating engine will enable developers to generate dynamic content by allowing variable substitution, control flow (such as loops and conditionals), and the integration of custom functions. The scope includes designing an intuitive API, integrating the engine with Ballerina’s runtime, ensuring high performance and security, and providing thorough documentation and testing to support community adoption.
+
+**🛠 Possible Technologies involved:** 
+- Ballerina
+- Java
+- Templating libraries/frameworks
+
+**📚 Learning Materials:**
+- Ballerina by Example: https://ballerina.io/learn/by-example/documentation/
+- 
+
+**💪 Expected skills and technologies for the project:**
+- Ballerina language knowledge is not required to start but you are expected to develop a strong understanding of ballerina language, best practices, and even some internals during the project. 
+- You are expected to research the templating solutions provided by other languages standard libraries(ex- go templates) and how custom templating solutions like handlebars are implemented in those languages.
+
+---
+
+### 🚀 9. ** Ballerina CLI support to configure the global environment **  
+
+**📅 Project Duration:** Short (~90 hours)  
+**🔥 Difficulty Level:** Easy
+**👨‍🏫 Number of people:** 1
+**👨‍🏫 Mentors:** Asma Jabir (asmaj@wso2.com), Sameera Jayasoma (sameera@wso2.com)
+
+**📍 Description:** 
+At present, Ballerina’s global configuration is managed through a manually created Settings.toml file, which stores important settings such as access tokens for Ballerina Central, custom repository information, and retry configurations. However, there is no built-in CLI support for managing these configurations efficiently.
+
+This project aims to introduce CLI commands to allow users to set, update, and retrieve global configurations for Ballerina without manually editing the Settings.toml file. The core of this implementation will involve developing a TOML configuration parser that maps CLI inputs to the correct TOML syntax. This parser will lay the groundwork for CLI support for other TOML-based configuration files within Ballerina’s ecosystem as well.
+
+**🛠 Possible Technologies involved:** 
+- TOML
+- Java
+- Ballerina
+- Gradle
+
+**📚 Learning Materials:**
+- Toml Specification - https://toml.io/en/
+- Ballerina - https://ballerina.io/learn/
+
+**💪 Expected skills and technologies for the project:**
+- Experience with Java (or willingness to learn).
+- Understanding of TOML file formats.
+- Basic knowledge of command-line tools and argument parsing.
+- Familiarity with Gradle-based projects (preferred but not required).
+- Interest in Ballerina programming language and its tooling ecosystem.
+
+---
+
 
 📌 **More project ideas coming soon!**  
 📞 For any questions, reach out to mentors or check our [CONTRIBUTING.md](./CONTRIBUTING.md) guide.  
